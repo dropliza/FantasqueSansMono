@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fantasque Sans Mono — Matrix Edition</title>
+  <meta name="description" content="Одностраничный сайт в стилистике Матрицы с шрифтом Fantasque Sans Mono." />
+  <link rel="preload" href="assets/fonts/FantasqueSansMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/FantasqueSansMono-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<section class="hero" aria-label="Заставка">
+  <video class="intro-video" autoplay muted loop playsinline>
+    <source src="matrix_intro.mp4" type="video/mp4">
+  </video>
+</section>
+
+<main>
+<section class="facet facet-bladerunner" aria-label="Досье автора шрифта">
+  <div class="id-card id-card--dossier" id="idCardAuthor">
+    <div class="id-card__top">
+      <span class="id-card__title">ДОСЬЕ · АВТОР ШРИФТА · FANTASQUE SANS MONO</span>
+    </div>
+
+    <div class="id-card__content id-card__content--dossier">
+      <figure class="id-card__photo id-card__photo--dossier">
+        <img src="author.png" alt="Автор Fantasque Sans Mono">
+        <figcaption>АВТОР ШРИФТА — ФОТОФИКСАЦИЯ</figcaption>
+      </figure>
+
+      <div class="id-card__panel id-card__panel--dossier">
+        <div class="dossier-row"><span class="dossier-key">ИМЯ</span><span class="dossier-val">Jérémie Hornus</span></div>
+        <div class="dossier-row"><span class="dossier-key">СТРАНА</span><span class="dossier-val">Франция</span></div>
+        <div class="dossier-row"><span class="dossier-key">РОЛЬ</span><span class="dossier-val">Дизайнер шрифта, разработчик</span></div>
+        <div class="dossier-row"><span class="dossier-key">ПРОЕКТ</span><span class="dossier-val">Fantasque Sans Mono</span></div>
+        <div class="dossier-row"><span class="dossier-key">ПЕРИОД</span><span class="dossier-val">2013 – 2015</span></div>
+
+        <div class="dossier-notes">
+          <div class="notes-title">ПРИМЕЧАНИЯ</div>
+          <ul class="notes-list">
+            <li>Создал шрифт с характером и иронией для программистов.</li>
+            <li>Свободное распространение (Open Font License).</li>
+            <li>Используется в IDE, арт-проектах и терминалах.</li>
+            <li>Поддерживает латиницу и кириллицу.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="id-card__bottom">
+      <div class="stamp stamp--ok" aria-live="polite">ДОСТУП РАЗРЕШЁН — АВТОР ПОДТВЕРЖДЁН.</div>
+      <div class="id-card__footer">ДИЗАЙН ШРИФТА · НЕ РАЗГЛАШАТЬ</div>
+    </div>
+  </div>
+</section>
+<section id="history" class="section section--history">
+    <div class="bg-arch" id="bgArch" aria-hidden="true"></div>
+
+    <div class="container">
+      <h2 class="section__title">История шрифта</h2>
+      <p>
+        Где-то в недрах цифрового мира, между строчек кода и командных строк, родился шрифт 
+        <strong>Fantasque Sans Mono</strong> — проект французского дизайнера <strong>Jérémie Hornus</strong>.
+      </p>
+      <p>
+        Его цель была не просто создать ещё один моноширинный шрифт, а вдохнуть в холодный терминальный текст
+        немного характера и иронии. Так появился типографический гибрид — чистый, ритмичный и немного «взломанный».
+      </p>
+      <p>
+        Fantasque Sans Mono вдохновлён миром программистов и ретро-терминалов 70‑х.  
+        Он используется в IDE, код-редакторах и арт‑проектах, где каждый символ становится частью матрицы.
+      </p>
+      <blockquote class="quote">
+        <span class="cursor">></span>
+        <span class="text">шрифт — это код, а код — это искусство</span>
+      </blockquote>
+      <p>
+        Сегодня он живёт в открытом доступе, переходит из репозитория в репозиторий и каждый раз обретаёт новую жизнь.  
+        Здесь он стал сердцем проекта, символом свободы и цифровой поэзии.
+      </p>
+    </div>
+  </section>
+  <a id="about"></a>
+
+
+<section id="weights" class="section section--weights-desktop v2">
+  <div class="container">
+    <h2 class="section__title">Начертания шрифта</h2>
+    <div class="ws-desktop" aria-label="Начертания Fantasque Sans Mono">
+      <div class="ws-grid">
+        <button class="ws-folder regular" data-style="regular" aria-pressed="false">
+          <span class="tab"></span><span class="body"></span>
+          <span class="sample regular">AaBbCcDd</span>
+          <span class="label">Regular</span>
+        </button>
+        <button class="ws-folder bold" data-style="bold" aria-pressed="false">
+          <span class="tab"></span><span class="body"></span>
+          <span class="sample bold">AaBbCcDd</span>
+          <span class="label">Bold</span>
+        </button>
+        <button class="ws-folder italic" data-style="italic" aria-pressed="false">
+          <span class="tab"></span><span class="body"></span>
+          <span class="sample italic">AaBbCcDd</span>
+          <span class="label">Italic</span>
+        </button>
+        <button class="ws-folder bolditalic" data-style="bolditalic" aria-pressed="false">
+          <span class="tab"></span><span class="body"></span>
+          <span class="sample bold italic">AaBbCcDd</span>
+          <span class="label">Bold&nbsp;Italic</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="glyphs" class="section section--glyphs-table">
+  <div class="container">
+    <h2 class="section__title">Глифы</h2>
+
+    <div class="glyphs-group">
+      <div class="glyphs-group__title">LATIN — A–Z</div>
+      <div class="glyphs-grid grid--latin-upper">
+        <span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span><span>I</span><span>J</span><span>K</span><span>L</span><span>M</span>
+        <span>N</span><span>O</span><span>P</span><span>Q</span><span>R</span><span>S</span><span>T</span><span>U</span><span>V</span><span>W</span><span>X</span><span>Y</span><span>Z</span>
+      </div>
+    </div>
+
+    <div class="glyphs-group">
+      <div class="glyphs-group__title">latin — a–z</div>
+      <div class="glyphs-grid grid--latin-lower">
+        <span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span><span>i</span><span>j</span><span>k</span><span>l</span><span>m</span>
+        <span>n</span><span>o</span><span>p</span><span>q</span><span>r</span><span>s</span><span>t</span><span>u</span><span>v</span><span>w</span><span>x</span><span>y</span><span>z</span>
+      </div>
+    </div>
+
+    <div class="glyphs-group">
+      <div class="glyphs-group__title">CYRILLIC — А–Я</div>
+      <div class="glyphs-grid grid--cyr-upper">
+        <span>А</span><span>Б</span><span>В</span><span>Г</span><span>Д</span><span>Е</span><span>Ё</span><span>Ж</span><span>З</span><span>И</span><span>Й</span><span>К</span><span>Л</span>
+        <span>М</span><span>Н</span><span>О</span><span>П</span><span>Р</span><span>С</span><span>Т</span><span>У</span><span>Ф</span><span>Х</span><span>Ц</span><span>Ч</span><span>Ш</span>
+        <span>Щ</span><span>Ъ</span><span>Ы</span><span>Ь</span><span>Э</span><span>Ю</span><span>Я</span>
+      </div>
+    </div>
+
+    <div class="glyphs-group">
+      <div class="glyphs-group__title">cyrillic — а–я</div>
+      <div class="glyphs-grid grid--cyr-lower">
+        <span>а</span><span>б</span><span>в</span><span>г</span><span>д</span><span>е</span><span>ё</span><span>ж</span><span>з</span><span>и</span><span>й</span><span>к</span><span>л</span>
+        <span>м</span><span>н</span><span>о</span><span>п</span><span>р</span><span>с</span><span>т</span><span>у</span><span>ф</span><span>х</span><span>ц</span><span>ч</span><span>ш</span>
+        <span>щ</span><span>ъ</span><span>ы</span><span>ь</span><span>э</span><span>ю</span><span>я</span>
+      </div>
+    </div>
+
+    <div class="glyphs-group">
+      <div class="glyphs-group__title">NUMBERS — 0–9</div>
+      <div class="glyphs-grid grid--digits">
+        <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+      </div>
+    </div>
+
+    <div class="glyphs-group">
+      <div class="glyphs-group__title">PUNCTUATION & SYMBOLS</div>
+      <div class="glyphs-grid grid--symbols">
+        <span>!</span><span>?</span><span>@</span><span>#</span><span>$</span><span>%</span><span>&</span><span>*</span><span>(</span><span>)</span><span>[</span><span>]</span><span>{</span><span>}</span>
+        <span>–</span><span>—</span><span>·</span><span>•</span><span>…</span><span>/</span><span>\</span><span>+</span><span>−</span><span>×</span><span>÷</span><span>=</span><span>≠</span><span>≈</span>
+        <span>°</span><span>§</span><span>¶</span><span>©</span><span>®</span><span>™</span><span>€</span><span>£</span><span>¥</span><span>₽</span><span>∞</span><span>π</span><span>Ω</span><span>Δ</span><span>∑</span><span>∫</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ <section class="section section-multifacet" id="multifacet">
+  <div class="container">
+    <h2 class="section__title">Композиции</h2>
+
+      <section class="facet facet-terminal" aria-label="Terminal Genesis">
+  <div class="terminal-window" aria-label="terminal output">
+    <div class="line">&gt; echo "font is code"</div>
+    <div class="line">&gt; run Fantasque_Sans_Mono --mode creative</div>
+    <div class="line">&gt; compiling...</div>
+    <div class="line">&gt; success: art = algorithm</div>
+    <div class="line">&gt; Fantasque Sans Mono ready.</div>
+  </div>
+</section>
+
+<h1 class="top-text">PLEASE WAIT</h1>
+
+<div id="parent">
+  <div id="load"></div>
+</div>
+
+<h2 class="bottom-text">WITTY RESPONSE LOADING</h2>
+
+      <section class="facet facet-glitch" aria-label="Glitch Collapse">
+        <div class="glitch-stack">
+          <div class="glitch-line" data-text="FANTASQUE SANS MONO">FANTASQUE SANS MONO</div>
+          <div class="glitch-line" data-text="MATRIX EDITION">MATRIX EDITION</div>
+
+
+ <section class="matrix-fall">
+  <div class="numbers">
+    <div class="row" id="r1"><p>A</p><p>B</p><p>C</p><p>D</p><p>E</p><p>F</p><p>G</p><p>H</p><p>I</p><p>J</p><p>K</p><p>L</p><p>M</p><p>N</p><p>O</p><p>P</p></div>
+    <div class="row" id="r2"><p>Q</p><p>W</p><p>E</p><p>R</p><p>T</p><p>Y</p><p>U</p><p>I</p><p>O</p><p>P</p><p>A</p><p>S</p><p>D</p><p>F</p><p>G</p><p>H</p></div>
+    <div class="row" id="r3"><p>Ж</p><p>З</p><p>И</p><p>Й</p><p>К</p><p>Л</p><p>М</p><p>Н</p><p>О</p><p>П</p><p>Р</p><p>С</p><p>Т</p><p>У</p><p>Ф</p><p>Х</p></div>
+    <div class="row" id="r4"><p>Ω</p><p>Λ</p><p>Σ</p><p>Φ</p><p>Ψ</p><p>Θ</p><p>Γ</p><p>Δ</p><p>Ξ</p><p>Ω</p><p>Φ</p><p>Σ</p><p>Λ</p><p>Γ</p><p>Θ</p><p>Ψ</p></div>
+    <div class="row" id="r5"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>0</p><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p></div>
+    <div class="row" id="r6"><p>Й</p><p>Ц</p><p>У</p><p>К</p><p>Е</p><p>Н</p><p>Г</p><p>Ш</p><p>Щ</p><p>З</p><p>Х</p><p>Ъ</p><p>Ф</p><p>Ы</p><p>В</p><p>А</p></div>
+    <div class="row" id="r7"><p>Λ</p><p>Φ</p><p>Ω</p><p>Σ</p><p>Ξ</p><p>Ψ</p><p>Θ</p><p>Γ</p><p>Δ</p><p>Λ</p><p>Φ</p><p>Ω</p><p>Σ</p><p>Ξ</p><p>Ψ</p><p>Θ</p></div>
+    <div class="row" id="r8"><p>Z</p><p>X</p><p>C</p><p>V</p><p>B</p><p>N</p><p>M</p><p>A</p><p>S</p><p>D</p><p>F</p><p>G</p><p>H</p><p>J</p><p>K</p><p>L</p></div>
+    <div class="row" id="r9"><p>1</p><p>Λ</p><p>Σ</p><p>Φ</p><p>Ω</p><p>Ξ</p><p>Ψ</p><p>Θ</p><p>Γ</p><p>Δ</p><p>Ω</p><p>Σ</p><p>Φ</p><p>Λ</p><p>Ξ</p><p>Ψ</p></div>
+    <div class="row" id="r10"><p>Я</p><p>Ц</p><p>У</p><p>К</p><p>Е</p><p>Н</p><p>Г</p><p>Ш</p><p>Щ</p><p>З</p><p>Х</p><p>Ъ</p><p>Ф</p><p>Ы</p><p>В</p><p>А</p></div>
+    <div class="row" id="r11"><p>Ω</p><p>Σ</p><p>Φ</p><p>Λ</p><p>Ξ</p><p>Ψ</p><p>Θ</p><p>Γ</p><p>Δ</p><p>Λ</p><p>Φ</p><p>Ω</p><p>Σ</p><p>Ξ</p><p>Ψ</p><p>Θ</p></div>
+    <div class="row" id="r12"><p>Λ</p><p>Φ</p><p>Ω</p><p>Σ</p><p>Ξ</p><p>Ψ</p><p>Θ</p><p>Γ</p><p>Δ</p><p>Ω</p><p>Σ</p><p>Φ</p><p>Λ</p><p>Γ</p><p>Θ</p><p>Ψ</p></div>
+    <div class="row" id="r13"><p>F</p><p>G</p><p>H</p><p>I</p><p>J</p><p>K</p><p>L</p><p>M</p><p>N</p><p>O</p><p>P</p><p>Q</p><p>R</p><p>S</p><p>T</p><p>U</p></div>
+    <div class="row" id="r14"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>0</p><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p></div>
+    <div class="row" id="r15"><p>Λ</p><p>Φ</p><p>Ω</p><p>Σ</p><p>Ξ</p><p>Ψ</p><p>Θ</p><p>Γ</p><p>Δ</p><p>Λ</p><p>Φ</p><p>Ω</p><p>Σ</p><p>Ξ</p><p>Ψ</p><p>Θ</p></div>
+    <div class="row" id="r16"><p>Ж</p><p>Д</p><p>З</p><p>Х</p><p>Ъ</p><p>Ф</p><p>Ы</p><p>В</p><p>А</p><p>П</p><p>Р</p><p>О</p><p>Г</p><p>Р</p><p>А</p><p>М</p></div>
+    <div class="row" id="r17"><p>Я</p><p>Ц</p><p>У</p><p>К</p><p>Е</p><p>Н</p><p>Г</p><p>Ш</p><p>Щ</p><p>З</p><p>Х</p><p>Ъ</p><p>Ф</p><p>Ы</p><p>В</p><p>А</p></div>
+    
+  </div>
+</section>
+
+</body>
+</html>
+      
+
+    </div>
+  </section>
+
+
+<a id="Контакты"></a><section id="contact" class="section section--contact">
+    <div class="container">
+      <h2 class="section__title">Контакты</h2>
+      <p>Автор: <a href="#" class="link">dropliza</a> · Email: <a href="epnikiforova@edu.hse.ru" class="link">epnikiforova@edu.hse.ru</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Fantasque Sans Mono · Matrix Edition</p>
+  </div>
+</footer>
+</body>
+</html>
