@@ -133,37 +133,6 @@ body {
   text-shadow: 0 0 8px rgba(0, 255, 65, 0.55);
 }
 
-.facet-glitch .glitch-line {
-  position: relative;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  font-size: clamp(22px, 5vw, 56px);
-  color: var(--neon);
-  text-shadow: var(--glow);
-  overflow: hidden;
-}
-
-.facet-glitch .glitch-line::before,
-.facet-glitch .glitch-line::after {
-  content: attr(data-text);
-  position: absolute;
-  inset: 0;
-  mix-blend-mode: screen;
-}
-
-.facet-glitch .glitch-line::before {
-  transform: translate(2px, 0);
-  color: #aaffaa;
-  clip-path: polygon(0 2%, 100% 2%, 100% 44%, 0 44%);
-}
-
-.facet-glitch .glitch-line::after {
-  transform: translate(-2px, 0);
-  color: #55ff55;
-  clip-path: polygon(0 64%, 100% 64%, 100% 98%, 0 98%);
-}
-
 .facet-bladerunner .id-card {
   background: radial-gradient(circle at 50% 20%, #00ff410f, #010);
   border: 1px solid #00ff4546;
